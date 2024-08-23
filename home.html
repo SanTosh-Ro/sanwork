@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+    <header class="header">
+        <a href="/home.html" class="logo">
+            <img src="./assets/logo.png" alt="Furnish me" />
+          </a>
+
+        <form action="#" class="search-form">
+            <input type="search" placeholder="seaech here..." id="search-box">
+            <label for="search-box" class="ri-search-line"></label>
+        </form>
+
+        <div class="icons">
+            <div id="menu-btn" class="ri-menu-line"></div>
+            <div id="search-btn" class="ri-search-line"></div>
+            <div id="cart-btn" class="ri-shopping-cart-line"></div>
+            <div id="login-btn" class="ri-user-line"></div>
+        </div>
+    </header>
+    <div id="closer" ></div>
+   
+    <nav class="navbar">
+        <a href="home.html" class="a">home</a>
+        <a href="shop.html" class="a">shop</a>
+        <a href="about.html" class="a">about</a>
+        <a href="team.html" class="a">team</a>
+        <a href="blog.html" class="a">blog</a>
+        <a href="contact.html" class="a">contact</a>
+    </nav >
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="ri-close-line close-icon"> </i>
+                <img src="./assets/bed.png" alt="">
+                <div class="content">
+                    <h3>modern furniture</h3>
+                    <span class="quantity"> 1 </span>
+                    <span class="multiply"> x </span>
+                    <span class="price">Npr 15000</span>
+                </div>
+        </div>
+        <div class="box">
+            <i class="ri-close-line close-icon"> </i>
+                <img src="./assets/bed.png" alt="">
+                <div class="content">
+                    <h3>modern furniture</h3>
+                    <span class="quantity"> 1 </span>
+                    <span class="multiply"> x </span>
+                    <span class="price">Npr 15000</span>
+                </div>
+        </div>
+        <div class="box">
+            <i class="ri-close-line close-icon"> </i>
+                <img src="./assets/bed.png" alt="">
+                <div class="content">
+                    <h3>modern furniture</h3>
+                    <span class="quantity"> 1 </span>
+                    <span class="multiply"> x </span>
+                    <span class="price">Npr 15000</span>
+                </div>
+        </div>
+        <div class="box">
+            <i class="ri-close-line close-icon"> </i>
+                <img src="./assets/bed.png" alt="">
+                <div class="content">
+                    <h3>modern furniture</h3>
+                    <span class="quantity"> 1 </span>
+                    <span class="multiply"> x </span>
+                    <span class="price">Npr 15000</span>
+                </div>
+        </div>
+        <div class="box">
+            <i class="ri-close-line close-icon"> </i>
+                <img src="./assets/bed.png" alt="">
+                <div class="content">
+                    <h3>modern furniture</h3>
+                    <span class="quantity"> 1 </span>
+                    <span class="multiply"> x </span>
+                    <span class="price">Npr 15000</span>
+                </div>
+        </div>
+        <h3 class="total">total : <span>Npr 75000</span></h3>
+        <a href="#" class="btn">checkout Cart</a>
+
+    </div>
+
+    <div class="login-form">
+        <form action="#">
+            <h3>login form</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="password" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="login now" class="btn">
+            <p>forget password? <a href="#">click here</a></p>
+            <p>Sign Up <a href="#">create now</a></p>
+        </form>
+    </div>
+
+    <section class="home">
+        <div class="slides-container">
+            <div class="slide active">
+                <div class="content">
+                    <span>new arrivals</span>
+                    <h3>historical bed</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed corrupti illo, quisquam consectetur quidem in!</p>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+                <div class="image">
+                    <img src="/assets/bed-carved.png" alt="">
+                </div>
+            </div>
+
+            
+
+            <div class="slide">
+                <div class="content">
+                    <span>new arrivals</span>
+                    <h3>historical bed</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed corrupti illo, quisquam consectetur quidem in!</p>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+                <div class="image">
+                    <img src="/assets/bed-carved2.png" alt="">
+                </div>
+            </div>
+
+            
+        </div>
+        <div id="slide-next" onclick="next()" class="ri-arrow-right-line"></div>
+        <div id="slide-prev" onclick="prev()" class="ri-arrow-left-line"></div>
+    </section>
+
+    <section class="banner-container">
+        <!--card 1-->
+        <div class="banner">
+            <div class="image">
+            <img src="assets/bed-carved.png" alt="">
+        </div>
+            <div class="content">
+                <span>limited offer..</span>
+                <h3>get 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+
+            <!--card 2-->
+        </div>
+        <div class="banner">
+            <div class="image">
+            <img src="assets/door.png" alt="">
+        </div>
+            <div class="content">
+                <span>limited offer..</span>
+                <h3>get 50% off</h3>
+                <a href="#" class="btn">Shop Now </a>
+            </div>
+        </div>
+
+        <!--card 3-->
+        <div class="banner">
+            <div class="image">
+            <img src="assets/bed-carved2.png" alt="">
+        </div>
+            <div class="content">
+                <span>limited offer..</span>
+                <h3>get 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </div>
+
+            <!--card 4-->
+        <div class="banner">
+            <div class="image">
+            <img src="assets/chair.png" alt="">
+        </div>
+            <div class="content">
+                <span>limited offer..</span>
+                <h3>get 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="home.html"> <i class="ri-arrow-right-line"></i>Home</a>
+                <a href="shop.html"> <i class="ri-arrow-right-line"></i>Shop</a>
+                <a href="about.html"> <i class="ri-arrow-right-line"></i>About</a>
+                <a href="team.html"> <i class="ri-arrow-right-line"></i>Team</a>
+                <a href="blog.html"> <i class="ri-arrow-right-line"></i>Blog</a>
+                <a href="contact.html"> <i class="ri-arrow-right-line"></i>Contact</a>
+            </div>
+            <div class="box">
+                <h3>Extra links</h3>
+                <a href="#"> <i class="ri-arrow-right-line"></i> My Order </a>
+                <a href="#"> <i class="ri-arrow-right-line"></i> My Watchlist</a>
+                <a href="#"> <i class="ri-arrow-right-line"></i> My Account</a>
+                <a href="#"> <i class="ri-arrow-right-line"></i> My Favourite</a>
+                <a href="#"> <i class="ri-arrow-right-line"></i>Terms & Condition </a>
+            </div>
+            <div class="box">
+                <h3>Extra links</h3>
+                <a href="#"> <i class="ri-facebook-fill"></i> Facebook </a>
+                <a href="#"> <i class="ri-twitter-fill"></i> Twitter</a>
+                <a href="#"> <i class="ri-instagram-fill"></i> Instagram</a>
+                <a href="#"> <i class="ri-linkedin-box-fill"></i> Linkedin</a>
+            </div>
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form action="#">
+                    <input type="email" name="placeholder="enter your email" id="">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="credit">
+        created by Aman Gupta || All rights reserved!!
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+    
+    
+</html>
